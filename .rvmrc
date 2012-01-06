@@ -1,1 +1,1 @@
-rvm use 1.9.2@rspec_shared_example_error
+rvm --create 1.9.2@spork_controller_module_error
