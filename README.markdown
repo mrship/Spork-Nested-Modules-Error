@@ -36,7 +36,7 @@ However, if you drop back to 0.8.5 of Spork, thus:
     `bundle update spork`
 
 Then run as before:
-    `bundle exec spork`
+    `bundle exec spork` and
     `rspec spec`
     
 You'll notice that all specs run just fine.
