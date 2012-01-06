@@ -30,13 +30,13 @@ Running the specs individually works without a problem.
 However, if you drop back to 0.8.5 of Spork, thus:
 
 1. Alter the Gemfile to comment line 19
-    gem 'spork', '~> 0.9.0.rc'
+    `gem 'spork', '~> 0.9.0.rc'`
 2. Uncomment line 20
 3. Run
-    bundle update spork
+    `bundle update spork`
 
 Then run as before:
-    bundle exec spork
-    rspec spec
+    `bundle exec spork`
+    `rspec spec`
     
 You'll notice that all specs run just fine.
