@@ -1,4 +1,4 @@
-== Spork 0.9 v 0.8 module error
+## Spork 0.9 v 0.8 module error
 
 There are 3 controllers in the app, each called DashboardController. They are split into 2 modules, thus:
 
@@ -15,6 +15,7 @@ There are 3 controllers in the app, each called DashboardController. They are sp
     end
     
 To setup, clone the repo and run using Spork with v0.9.RC
+
     gem install bundler --pre
     bundle
     bundle exec spork
